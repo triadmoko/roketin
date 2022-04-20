@@ -21,6 +21,7 @@ func (s *service) Create(input input.Film) (entity.Film, error) {
 	film := entity.Film{}
 
 	film.Title = input.Title
+	film.Description = input.Description
 	film.Artist = input.Artist
 	film.Duration = input.Duration
 	film.Filename = input.Filename
