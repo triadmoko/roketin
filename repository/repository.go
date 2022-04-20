@@ -8,6 +8,8 @@ import (
 
 type Repository interface {
 	Create(film entity.Film) (entity.Film, error)
+	UpdateFilm(film entity.Film) (entity.Film, error)
+	FindID(ID int) (entity.Film, error)
 }
 
 type repository struct {

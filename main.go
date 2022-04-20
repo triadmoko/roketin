@@ -25,6 +25,7 @@ func main() {
 	router := gin.Default()
 	url := router.Group("/api/v1")
 	url.POST("/create", handler.Create)
+	url.PUT("/update/:id", handler.Update)
 
 	router.Run(":8080")
 }
