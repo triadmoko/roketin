@@ -3,16 +3,8 @@
 
 ## POST localhost:8080/api/v1/create
 **Body**
-```json
-{
-  "title": "trasdf",
-  "description": "description",
-  "duration": "asdasd",
-  "artist": "sdf",
-  "genre": "asdf",
-  "filename": "asdfsdf"
-}
-```
+![](doc/create.png)
+
 **Response** 
 ```json
 {
@@ -20,12 +12,13 @@
     "code": 200,
     "status": "success",
     "data": {
-        "title": "trasdf",
+        "title": "asdfasdf",
         "description": "",
-        "duration": "asdasd",
-        "artist": "sdf",
-        "genre": "asdf",
-        "filename": "asdfsdf"
+        "duration": "sdfasfg",
+        "artist": "asdfasdf",
+        "genre": "dfhsdfdg",
+        "filename": "video/1f1d26b34700053b7518.mp4"
     }
 }
 ```
+
